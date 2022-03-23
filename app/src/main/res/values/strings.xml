@@ -3,4 +3,12 @@
     <string name="addNew_User">Promediar Nuevo Estudiante</string>
     <string name="seeUsers">Ver Estudiantes Añadidos</string>
     <string name="appInfo">¿Que es esta aplicación?</string>
+    <string name="infoPersonalUser">Informacion Personal Del Estudiante!</string>
+    <string name="documentStudent">Documento: </string>
+    <string name="nameStudent">Nombre Completo: </string>
+    <string name="ageStudent">Edad: </string>
+    <string name="numberStudent">Telefono: </string>
+    <string name="addressStudent">Dirección: </string>
+    <string name="hintDocumentStudent">Ingrese Su Documento.</string>
+    <string name="hintNameStudent">Ingrese Su Documento.</string>
 </resources>
