@@ -3,12 +3,19 @@
     <string name="addNew_User">Promediar Nuevo Estudiante</string>
     <string name="seeUsers">Ver Estudiantes Añadidos</string>
     <string name="appInfo">¿Que es esta aplicación?</string>
-    <string name="infoPersonalUser">Informacion Personal Del Estudiante!</string>
-    <string name="documentStudent">Documento: </string>
-    <string name="nameStudent">Nombre Completo: </string>
-    <string name="ageStudent">Edad: </string>
-    <string name="numberStudent">Telefono: </string>
-    <string name="addressStudent">Dirección: </string>
+    <string name="infoPersonalStudent">Informacion Personal Del Estudiante!</string>
+    <string name="infoGradesStudent">Notas Personales Del Estudiante!</string>
     <string name="hintDocumentStudent">Ingrese Su Documento.</string>
     <string name="hintNameStudent">Ingrese Su Documento.</string>
+    <string name="hintAgeStudent">Ingrese Su Edad.</string>
+    <string name="hintPhoneNumberStudent">Ingrese Su Numero telefonico.</string>
+    <string name="hintAddressStudent">Ingrese Su Dirección.</string>
+    <string name="txtSubject">Ingrese La Materia.</string>
+    <string name="txtGrades">Ingrese La Nota</string>
+    <string name="txtButtonSaveInformationStudent">Guardar Informacion Del Estudiante</string>
+    <string name="InformationInfoStudentTittle">Informacion De Los Estudiantes</string>
+    <string name="subjectAddeds">Materias</string>
+    <string name="averageStudent">Promedio</string>
+    <string name="statusStudent">Estado</string>
+    <string name="btnCloseWindow">Cerrar</string>
 </resources>

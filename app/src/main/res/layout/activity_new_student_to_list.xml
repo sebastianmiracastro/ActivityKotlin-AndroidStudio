@@ -7,89 +7,215 @@
     android:orientation="vertical"
     tools:context=".NewStudentToList">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/txtPersonalInfo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/infoPersonalUser"
-            android:gravity="center"
-            android:textStyle="bold"/>
-
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/infoPersonalStudent"
+                android:textColor="@color/black"
+                android:background="@color/Yellow"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
-                <TextView
+
+                <EditText
                     android:id="@+id/txtDocumentStudent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/documentStudent"
-                    android:layout_marginTop="30dp"/>
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/hintDocumentStudent"
+                    android:gravity="center"
+                    android:inputType="number"/>
 
-                <TextView
+                <EditText
                     android:id="@+id/txtNameStudent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/nameStudent"
-                    android:layout_marginTop="30dp"/>
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/hintNameStudent"
+                    android:gravity="center"
+                    android:inputType="textPersonName"/>
 
-                <TextView
+                <EditText
                     android:id="@+id/txtAgeStudent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ageStudent"
-                    android:layout_marginTop="30dp"/>
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/hintAgeStudent"
+                    android:gravity="center"
+                    android:inputType="number"/>
 
-                <TextView
-                    android:id="@+id/txtNumberStudent"
+                <EditText
+                    android:id="@+id/txtPhoneStudent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/numberStudent"
-                    android:layout_marginTop="30dp"/>
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/hintPhoneNumberStudent"
+                    android:gravity="center"
+                    android:inputType="phone"/>
 
-                <TextView
+                <EditText
                     android:id="@+id/txtAddressStudent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/addressStudent"
-                    android:layout_marginTop="30dp"/>
-            </LinearLayout>
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/hintAddressStudent"
+                    android:gravity="center"
+                    android:inputType="textPostalAddress"/>
 
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/infoGradesStudent"
+                android:textColor="@color/black"
+                android:background="@color/Yellow"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <EditText
-                    android:id="@+id/textEditStudentName"
-                    android:layout_width="238dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name" />
-
-                <EditText
-                    android:id="@+id/textEditStudentDocument"
+                android:orientation="vertical"
+                android:layout_weight="2">
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="@string/hintDocumentStudent"
-                    android:inputType="textPersonName" />
-            </LinearLayout>
+                    android:layout_marginBottom="15dp">
 
+                    <EditText
+                        android:id="@+id/subjet1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/txtSubject"
+                        android:gravity="center"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/grade1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/txtGrades"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/subjet2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/txtSubject"
+                        android:gravity="center"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/grade2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/txtGrades"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/subjet3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/txtSubject"
+                        android:gravity="center"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/grade3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/txtGrades"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/subjet4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/txtSubject"
+                        android:gravity="center"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/grade4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/txtGrades"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/subjet5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/txtSubject"
+                        android:gravity="center"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/grade5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/txtGrades"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/Yellow"
+                    android:textColor="@color/black"
+                    android:text="@string/txtButtonSaveInformationStudent"
+                    android:id="@+id/btnCalculateAverage"/>
+
+            </LinearLayout>
         </LinearLayout>
 
-    </LinearLayout>
+    </ScrollView>
+
 
 </LinearLayout>

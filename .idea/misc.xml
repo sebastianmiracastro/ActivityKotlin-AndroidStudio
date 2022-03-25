@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_info_student_data.xml" value="0.1" />
         <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_new_student_to_list.xml" value="0.264" />
+        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_new_student_to_list.xml" value="0.1" />
+        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
       </map>
     </option>
   </component>
