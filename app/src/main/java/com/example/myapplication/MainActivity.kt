@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
 
         BtnNewStudent.setOnClickListener { AddNewStudentToList() }
 
+        val BtnSeeStadistic:Button = findViewById(R.id.SeeStudents)
+
+        BtnSeeStadistic.setOnClickListener { SeeStudentToList() }
+
     }
 
     override fun onStart() {
@@ -29,6 +33,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun AddNewStudentToList() {
         val intent = Intent(this, NewStudentToList::class.java)
+        startActivity(intent)
+    }
+
+    private fun SeeStudentToList() {
+        val intent = Intent(this, StatisticsInformationStudents::class.java)
         startActivity(intent)
     }
 }

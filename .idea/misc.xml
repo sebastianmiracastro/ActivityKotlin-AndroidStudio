@@ -5,8 +5,9 @@
       <map>
         <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_info_student_data.xml" value="0.1" />
         <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_new_student_to_list.xml" value="0.1" />
+        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_new_student_to_list.xml" value="0.2" />
         <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/smira/OneDrive/Escritorio/ActivityKotlin-AndroidStudio/app/src/main/res/layout/activity_statistics_information_students.xml" value="0.25" />
       </map>
     </option>
   </component>

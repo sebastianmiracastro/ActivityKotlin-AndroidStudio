@@ -20,7 +20,7 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:id="@+id/txtNameIE"
+        android:id="@+id/txtNameSt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -48,7 +48,7 @@
             android:layout_marginBottom="15dp">
 
             <TextView
-                android:id="@+id/txtSubjectIE1"
+                android:id="@+id/txtSBS1"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -56,20 +56,22 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/txtGradeEI1"
+                android:id="@+id/txtGDSt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
 
-        </LinearLayout><LinearLayout
+        </LinearLayout>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp">
 
         <TextView
-            android:id="@+id/txtSubjectIE2"
+            android:id="@+id/txtSBS2"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -77,20 +79,22 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtGradeEI2"
+            android:id="@+id/txtGDSt2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
 
-    </LinearLayout><LinearLayout
+    </LinearLayout>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp">
 
         <TextView
-            android:id="@+id/txtSubjectIE3"
+            android:id="@+id/txtSBS3"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -98,20 +102,22 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtGradeEI3"
+            android:id="@+id/txtGDSt3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
 
-    </LinearLayout><LinearLayout
+    </LinearLayout>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp">
 
         <TextView
-            android:id="@+id/txtSubjectIE4"
+            android:id="@+id/txtSBS4"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -119,20 +125,22 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtGradeEI4"
+            android:id="@+id/txtGDSt4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
 
-    </LinearLayout><LinearLayout
+    </LinearLayout>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp">
 
         <TextView
-            android:id="@+id/txtSubjectIE5"
+            android:id="@+id/txtSBS5"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -140,7 +148,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtGradeEI5"
+            android:id="@+id/txtGDSt5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -162,7 +170,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/txtAverageIE"
+                android:id="@+id/txtAverageSt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -184,7 +192,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/txtStatusIE"
+                android:id="@+id/txtStatusSt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -199,7 +207,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Yellow"
         android:text="@string/btnCloseWindow"
-        android:id="@+id/btnClose2"
+        android:id="@+id/btnCloseWindows"
         />
 
 </LinearLayout>
