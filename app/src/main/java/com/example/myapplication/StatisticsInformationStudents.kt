@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import org.w3c.dom.Text
 
 class StatisticsInformationStudents : AppCompatActivity() {
@@ -43,5 +44,9 @@ class StatisticsInformationStudents : AppCompatActivity() {
         var totalLostSt:Int = operations!!.statusGStudents("El Estudiante Perdio, Pailas Hermano")
         seeLostStudents!!.text = totalLostSt.toString()
         seeRecoverStudents!!.text = operations!!.statusGStudents("El Estudiante Puede Recuperar").toString()
+    }
+    override fun onStart() {
+        super.onStart()
+        Toast.makeText(this, "Estadisticas De Los Estudiantes Puestos!", Toast.LENGTH_SHORT).show()
     }
 }

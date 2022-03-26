@@ -100,6 +100,8 @@ class NewStudentToList : AppCompatActivity() {
             if (operation?.VGS(SDS) === true) {
                 operation?.registerStudents(SDS)
                 sendObjOtherActivity(SDS)
+
+                Toast.makeText(this, "Datos Ingresador Con Exito", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Ingrese Las Notas Con Un Total De 0 a 5", Toast.LENGTH_LONG).show()
             }

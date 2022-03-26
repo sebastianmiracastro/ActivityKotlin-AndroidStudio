@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Virtual Validator</string>
+    <string name="InfoAppIntroduction">Virtual Validator Fue Diseño Para Cumplir La Necesidad Del Usuario En Promediar A Un Estudiante De Dicha Clase, Sabiendo La Nota De 5 Materias, Ademas Saber Cuantos Perdieron U Ganaron, Diviertete Profesor!</string>
     <string name="addNew_User">Promediar Nuevo Estudiante</string>
     <string name="seeUsers">Ver Estudiantes Añadidos</string>
     <string name="appInfo">¿Que es esta aplicación?</string>
